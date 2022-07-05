@@ -18,3 +18,11 @@ section{
 .width-size img{
     width: 60%;
 }
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(pink,red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
