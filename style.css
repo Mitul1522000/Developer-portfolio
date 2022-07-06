@@ -1,18 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .o-c{
     color: orange;
 }
-section{
+.flexible{
     display: flex;
+    margin-bottom: 100px;
 }
 .width-size{
     width: 50%;
     padding-left: 5%;
+    
 
 }
 .width-size img{
@@ -25,4 +31,42 @@ section{
     color: white;
     font-weight: 700;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.Dream-wifu{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.right-padding{
+    padding-right: 130px;
+    text-align: justify;
+}
+.experience-item{
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    text-align: justify; 
+    box-shadow: 10px 10px 40px grey;
+}
+#tomato{
+    border-left: 7px solid tomato;
+}
+#blue{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
